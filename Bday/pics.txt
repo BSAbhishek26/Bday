@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Dr Voona Roshni</title>
+    <style>
+      html,
+      body {
+        height: 100%;
+      }
+      .wrapper {
+        height: 100%;
+        font-family: Helvetica, sans-serif;
+        line-height: 1.5;
+        word-spacing: 2px;
+        letter-spacing: 0.5px;
+      }
+      .fixed {
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size: full;
+        background-position: center center;
+        height: 100%;
+        width: 100%;
+        color: #eeeeee;
+        text-align: center;
+        display: table;
+      }
+      .fixed h2 {
+        display: table-cell;
+        vertical-align: middle;
+      }
+      .scroll {
+        background-color: #ffe0f6;
+        padding: 10px 70px;
+        color: #666666;
+      }
+      .one {
+        background-image: url("http://a769-59-92-135-226.ngrok.io/d.jpg");
+      }
+      .two {
+        background-image: url("http://a769-59-92-135-226.ngrok.io/a.jpg");
+      }
+      .three {
+        background-image: url("http://a769-59-92-135-226.ngrok.io/e.jpg");
+      }
+    </style>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="fixed one"></div>
+      <div class="scroll">
+        <h3>
+          "You always shine like the sun and illuminate the lives of those around you. I wish you a very happy birthday. Shine on!!"
+        </h3>
+      </div>
+      <div class="fixed two"></div>
+      <div class="scroll">
+        <h3>
+          "Happy birthday to the prettiest girl on the universe. May all your dreams come true, no matter how small or big they are."
+        </h3>
+      </div>
+      <div class="fixed three"></div>
+    </div>
+  </body>
+</html>
